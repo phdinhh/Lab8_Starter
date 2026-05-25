@@ -92,7 +92,7 @@ async function getRecipes() {
     /**************************/
     // A4. TODO - Loop through each recipe in the RECIPE_URLS array constant
     //            declared above
-    
+    for (const recipeUrl of RECIPE_URLS) {
 
     // A5. TODO - Since we are going to be dealing with asynchronous code, create
     //            a try / catch block. A6-A9 will be in the try portion, A10-A11
@@ -111,7 +111,7 @@ async function getRecipes() {
     //            resolve() method.
     // A10. TODO - Log any errors from catch using console.error
     // A11. TODO - Pass any errors to the Promise's reject() function
-  });
+  }});
 }
 
 /**
